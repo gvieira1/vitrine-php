@@ -63,7 +63,7 @@ try {
         echo "
             <script>
                 alert('Usuário não encontrado!');
-                window.location.href = '..view/login.php';
+                window.location.href = '../view/login.php';
             </script>
         ";
     }
