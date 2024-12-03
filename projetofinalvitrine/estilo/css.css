@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    background-color: #d8b2ab;
+    font-family: "Playfair Display", serif;
+    font-size: larger;
+}
+
+
+/* Altura mínima para garantir que o container ocupe toda a tela */
+.full-height {
+    min-height: 100vh; /* Definindo a altura mínima como 100% da viewport */
+}
+/* Plano de fundo para o container do formulário */
+.bg-custom {
+    background-color: #f5ecea; /* Cor de fundo clara */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espaço superior */
+}
+
+.no-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.custom-card .card-body {
+    padding: 2px;
+    
+}
+.labelinfo{
+    height: 2.5rem;
+    background-color: #d8b2ab;
+}
+.col{
+    padding: 0px 10px 8px 0px;
+}
+
+.coluna{
+    padding: 0px 8px 10px 0px;
+}
+
+.navbar{
+    background-color: #ffd3c8;
+}
+
+.exibenome{ 
+        height: 3.4rem;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login{
+    align-items: center;
+    width:25%;
+    padding: 3%;
+    border-radius: 3.5%;
+    background-color: #ffd3c8;
+}
+
+.centraliza{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nomeprods{
+    height: 4rem;
+    
+}
